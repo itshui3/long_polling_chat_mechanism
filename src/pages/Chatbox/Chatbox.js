@@ -1,6 +1,5 @@
-import React from 'react';
-//styling
-import './Chatbox.sass'
+import React from 'react'
+
 // chatbox API
 
 // chatlog API
@@ -10,7 +9,7 @@ import './Chatbox.sass'
 function Chatbox(props) {
     return (
         // block compo
-        <div 
+        <div
         className='chatbox'
         >
             {/* chatlog is a child of, a dependent to, chatbox */}
@@ -25,7 +24,17 @@ function Chatbox(props) {
                 ></div>
                 <div
                 className='interface__send'
-                ></div>
+                >
+
+                    <div
+                    className='send__btn'
+                    >
+                        {/* how do I center text le meow */}
+                        <p
+                        className='btn__text'
+                        >Send</p>
+                    </div>
+                </div>
             </div>
             
         </div>
