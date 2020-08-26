@@ -1,11 +1,15 @@
 import React from 'react';
+// pages
+import {
+    Chatbox
+} from './pages'
 
 function App() {
-  return (
-    <div className="App">
+    return (
 
-    </div>
-  );
+        <Chatbox />
+
+    );
 }
 
 export default App;
